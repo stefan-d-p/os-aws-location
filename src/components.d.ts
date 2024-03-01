@@ -7,11 +7,29 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface AwsMap {
+        /**
+          * API generated in AWS Location Service Console *
+         */
         "apiKey": string;
+        /**
+          * Initial latitude position *
+         */
         "lat": number;
+        /**
+          * Initial longitude position *
+         */
         "lng": number;
+        /**
+          * Map name from AWS Location Service console *
+         */
         "mapName": string;
+        /**
+          * AWS Region *
+         */
         "region": string;
+        /**
+          * Zoom Level *
+         */
         "zoom": number;
     }
 }
@@ -28,11 +46,29 @@ declare global {
 }
 declare namespace LocalJSX {
     interface AwsMap {
+        /**
+          * API generated in AWS Location Service Console *
+         */
         "apiKey"?: string;
+        /**
+          * Initial latitude position *
+         */
         "lat"?: number;
+        /**
+          * Initial longitude position *
+         */
         "lng"?: number;
+        /**
+          * Map name from AWS Location Service console *
+         */
         "mapName"?: string;
+        /**
+          * AWS Region *
+         */
         "region"?: string;
+        /**
+          * Zoom Level *
+         */
         "zoom"?: number;
     }
     interface IntrinsicElements {

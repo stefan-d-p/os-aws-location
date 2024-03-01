@@ -7,14 +7,14 @@
 
 ## Properties
 
-| Property  | Attribute  | Description | Type     | Default     |
-| --------- | ---------- | ----------- | -------- | ----------- |
-| `apiKey`  | `api-key`  |             | `string` | `undefined` |
-| `lat`     | `lat`      |             | `number` | `undefined` |
-| `lng`     | `lng`      |             | `number` | `undefined` |
-| `mapName` | `map-name` |             | `string` | `undefined` |
-| `region`  | `region`   |             | `string` | `undefined` |
-| `zoom`    | `zoom`     |             | `number` | `undefined` |
+| Property  | Attribute  | Description                                     | Type     | Default     |
+| --------- | ---------- | ----------------------------------------------- | -------- | ----------- |
+| `apiKey`  | `api-key`  | API generated in AWS Location Service Console * | `string` | `undefined` |
+| `lat`     | `lat`      | Initial latitude position *                     | `number` | `undefined` |
+| `lng`     | `lng`      | Initial longitude position *                    | `number` | `undefined` |
+| `mapName` | `map-name` | Map name from AWS Location Service console *    | `string` | `undefined` |
+| `region`  | `region`   | AWS Region *                                    | `string` | `undefined` |
+| `zoom`    | `zoom`     | Zoom Level *                                    | `number` | `undefined` |
 
 
 ----------------------------------------------

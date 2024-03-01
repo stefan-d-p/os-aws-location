@@ -8,12 +8,18 @@ import { Map, Marker } from 'maplibre-gl';
 })
 export class AwsMap {
 
+  /** API generated in AWS Location Service Console **/
   @Prop() apiKey: string;
+  /** Initial latitude position **/
   @Prop() lat: number;
+  /** Initial longitude position **/
   @Prop() lng: number;
+  /** Map name from AWS Location Service console **/
   @Prop() mapName: string;
+  /** AWS Region **/
   @Prop() region: string;
 
+  /** Zoom Level **/
   @Prop() zoom: number;
 
   @Watch('zoom')
