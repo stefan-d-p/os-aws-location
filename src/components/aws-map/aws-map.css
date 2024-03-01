@@ -1,0 +1,7 @@
+:host {
+  display: block;
+}
+
+.map {
+  aspect-ratio: 21/9;
+}
