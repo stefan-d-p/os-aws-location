@@ -20,7 +20,7 @@ export class AwsMap {
   @Prop() region: string;
 
   /** Zoom Level **/
-  @Prop() zoom: number;
+  @Prop() zoom: number = 10;
 
   @Watch('zoom')
   watchZoom(newValue: number) {

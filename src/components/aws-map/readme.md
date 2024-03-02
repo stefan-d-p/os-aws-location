@@ -14,7 +14,7 @@
 | `lng`     | `lng`      | Initial longitude position *                    | `number` | `undefined` |
 | `mapName` | `map-name` | Map name from AWS Location Service console *    | `string` | `undefined` |
 | `region`  | `region`   | AWS Region *                                    | `string` | `undefined` |
-| `zoom`    | `zoom`     | Zoom Level *                                    | `number` | `undefined` |
+| `zoom`    | `zoom`     | Zoom Level *                                    | `number` | `10`        |
 
 
 ----------------------------------------------
