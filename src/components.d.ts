@@ -7,6 +7,7 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface AwsMap {
+        "addMarker": (color: string, lng: number, lat: number) => Promise<void>;
         /**
           * API generated in AWS Location Service Console *
          */

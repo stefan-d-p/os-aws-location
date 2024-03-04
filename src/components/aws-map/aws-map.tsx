@@ -1,4 +1,4 @@
-import { Component, Host, h, Prop, Watch } from '@stencil/core';
+import { Component, Host, h, Prop, Watch, Method } from '@stencil/core';
 import { Map, Marker } from 'maplibre-gl';
 
 @Component({
@@ -41,7 +41,8 @@ export class AwsMap {
     });
   }
 
-  public addMarker(color: string, lng: number, lat: number) {
+  @Method()
+  async addMarker(color: string, lng: number, lat: number) {
     const marker = new Marker({color: color}).setLngLat([lng, lat]);
     marker.addTo(this.currentMap);
   }

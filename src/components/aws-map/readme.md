@@ -17,6 +17,27 @@
 | `zoom`    | `zoom`     | Zoom Level *                                    | `number` | `10`        |
 
 
+## Methods
+
+### `addMarker(color: string, lng: number, lat: number) => Promise<void>`
+
+
+
+#### Parameters
+
+| Name    | Type     | Description |
+| ------- | -------- | ----------- |
+| `color` | `string` |             |
+| `lng`   | `number` |             |
+| `lat`   | `number` |             |
+
+#### Returns
+
+Type: `Promise<void>`
+
+
+
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*
